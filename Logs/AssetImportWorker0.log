@@ -15,7 +15,7 @@ C:/Users/user/Documents/ms/Tile
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59437
+58552
 Successfully changed project path to: C:/Users/user/Documents/ms/Tile
 C:/Users/user/Documents/ms/Tile
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/user/Documents/ms/Tile
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 136.74 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 122.21 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,77 +63,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009796 seconds.
+Registered in 0.007037 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 123.16 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 123.47 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
+- Completed reload, in  0.816 seconds
 Domain Reload Profiling:
-	ReloadAssembly (880ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (624ms)
-			LoadAssemblies (92ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (128ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (369ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (360ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
+				RefreshPlugins (124ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010325 seconds.
+Registered in 0.008844 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\ms\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\ms\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Mono: successfully reloaded assembly
-- Completed reload, in  1.424 seconds
+- Completed reload, in  1.368 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1425ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1369ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1115ms)
-			LoadAssemblies (110ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
+			SetupTypeCache (353ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (527ms)
+			SetupLoadedEditorAssemblies (502ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
@@ -141,12 +140,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3643 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 46 unused Assets / (1.3 MB). Loaded Objects now: 4080.
-Memory consumption went from 133.8 MB to 132.5 MB.
-Total: 6.003300 ms (FindLiveObjects: 0.430100 ms CreateObjectMapping: 0.355700 ms MarkObjects: 4.783900 ms  DeleteObjects: 0.431600 ms)
+Memory consumption went from 133.9 MB to 132.6 MB.
+Total: 3.936800 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.208300 ms MarkObjects: 3.121100 ms  DeleteObjects: 0.264300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,379 +159,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1214584.235392 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.020635 seconds 
+  Time since last request: 1219458.958346 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3756badc2adac363a5385732672de2') in 0.137479 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/HYPEPOLY - Isometric Tiles Standart Lite/Demo
-  artifactKey: Guid(ae71ae43c02843e468f0485ec1b097b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Isometric Tiles Standart Lite/Demo using Guid(ae71ae43c02843e468f0485ec1b097b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4447f30740663531d3a01f9539c9f1d5') in 0.012929 seconds 
+  Time since last request: 1.071684 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7254710d2f2dec6b1e9087af57f09a35') in 0.028809 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.579892 seconds.
-  path: Assets/HYPEPOLY - Isometric Tiles Standart Lite/Demo/Demo.unity
-  artifactKey: Guid(2d396ec68023908499d684877ec4b09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Isometric Tiles Standart Lite/Demo/Demo.unity using Guid(2d396ec68023908499d684877ec4b09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29a182050f391ff429d87d9b1ec9f90') in 0.007989 seconds 
+  Time since last request: 14.963949 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1c10fc9c0d31dba2f00a574b33cb5c') in 0.014849 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.616468 seconds.
-  path: Assets/HYPEPOLY - Isometric Tiles Standart Lite/Demo/All Objects.unity
-  artifactKey: Guid(a8a9431ed2098614db875d4f149194eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Isometric Tiles Standart Lite/Demo/All Objects.unity using Guid(a8a9431ed2098614db875d4f149194eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9694808f6f88d2a64015a71fddd776b') in 0.008548 seconds 
+  Time since last request: 2.789515 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e737a7dd18910992d154f83fdda45bbf') in 0.010905 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.993191 seconds.
-  path: Assets/HYPEPOLY - Isometric Tiles Standart Lite/Materials
-  artifactKey: Guid(2c0429ab4ad5c384096a138808ef07a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Isometric Tiles Standart Lite/Materials using Guid(2c0429ab4ad5c384096a138808ef07a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e3f96370dafbd2361086a1d7a0242a') in 0.008154 seconds 
+  Time since last request: 4.034656 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f3ddff19181451030f656bd50ea36f') in 0.011832 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.818144 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.007748 seconds 
+  Time since last request: 1.777051 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ff65a56940ff82a8a65167545fe3a2') in 0.010680 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.828595 seconds.
-  path: Assets/Import
-  artifactKey: Guid(93707d76a683235419950c1370a6824e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import using Guid(93707d76a683235419950c1370a6824e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793af8afec551401ffa15f8697f3790f') in 0.008156 seconds 
+  Time since last request: 2.813673 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0ea4c65fd9432f493bd4f7af39d047') in 0.012681 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.719887 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.010028 seconds 
+  Time since last request: 2.396431 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5d06d541765b912fe86123634331cd') in 0.015778 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.680277 seconds.
-  path: Assets/Scenes/Stage1-1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage1-1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6654b1b137e94d9864724a2279796cec') in 0.007727 seconds 
+  Time since last request: 2.802751 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a87465ca47a00dc32a9cda88355318e') in 0.016704 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.891206 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/BigStone 1.prefab
-  artifactKey: Guid(bff151e1d30ee48468a63710c35596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/BigStone 1.prefab using Guid(bff151e1d30ee48468a63710c35596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccbf0b2647f57f061ee75c64c29aac7') in 0.477084 seconds 
+  Time since last request: 2.196045 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638ef997761a1be9e8eb5ea9cbe540c1') in 0.016515 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Branch 2.prefab
-  artifactKey: Guid(e8ef785b7b64117448a96bb948329292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Branch 2.prefab using Guid(e8ef785b7b64117448a96bb948329292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f9e9da915070d36a184fc0ecb7066e') in 0.021202 seconds 
+  Time since last request: 1.392913 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abe501757d581da82c2e80e38c617ee') in 0.016046 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Bridge.prefab
-  artifactKey: Guid(2754fe213be5eaf409b94575b0aabd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Bridge.prefab using Guid(2754fe213be5eaf409b94575b0aabd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04444cb3e41673418ed2dce56df1d1b3') in 0.017681 seconds 
+  Time since last request: 4.001635 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5efc201a13106f0d2c74a5504410178') in 0.010251 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.555700 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Bush 2.prefab
-  artifactKey: Guid(25d4358d22a714442ae3c55bec1bbf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Bush 2.prefab using Guid(25d4358d22a714442ae3c55bec1bbf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a050bde86a3229386856b55e3f1c0f6') in 0.029860 seconds 
+  Time since last request: 1.798468 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242a24663657ee1af1ac73026ec2d644') in 0.010945 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Ground Tile.prefab
-  artifactKey: Guid(900e6f9432fab1f4e86d7e9e63e57f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Ground Tile.prefab using Guid(900e6f9432fab1f4e86d7e9e63e57f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dc476df11fcff5aa747d6ad8219f4f') in 0.018235 seconds 
+  Time since last request: 5.436930 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51f6abe8d1fc0616eb6d4f48397b2b4') in 0.012530 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Grass.prefab
-  artifactKey: Guid(e8d2ccbee098ec94a954a38c4f953c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Grass.prefab using Guid(e8d2ccbee098ec94a954a38c4f953c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b65496e562d055fe46ee39718b2b052') in 0.015582 seconds 
+  Time since last request: 6.640422 seconds.
+  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab
+  artifactKey: Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Ground Tile.prefab using Guid(4ed6fffbb6b1f274ba7c0bbc15e1e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326bad54a7b2cce298017c7febba4636') in 0.011468 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.490508 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/LittleStone 1.prefab
-  artifactKey: Guid(5119d5f0634b90c4fa893861654e81b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/LittleStone 1.prefab using Guid(5119d5f0634b90c4fa893861654e81b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530f78265631da8c02ca8b8a004a950d') in 0.017403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.071295 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/LittleStone 3.prefab
-  artifactKey: Guid(4f2bfcd4d48b1304f87f0eb55c22b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/LittleStone 3.prefab using Guid(4f2bfcd4d48b1304f87f0eb55c22b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35af1d10e372a40c43d6838ebe52e58') in 0.017546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.335440 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Stones Tile.prefab
-  artifactKey: Guid(72388d1a9d1285246a965299508d6b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Stones Tile.prefab using Guid(72388d1a9d1285246a965299508d6b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65669eedc22bba7f9bcea1397927779e') in 0.018838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.013143 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Tile Bot 2.prefab
-  artifactKey: Guid(b24af410a59a0cc4c8f01f3ad358b943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Tile Bot 2.prefab using Guid(b24af410a59a0cc4c8f01f3ad358b943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca173b7cd7b364a46700a9e563a09bde') in 0.018241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Tile Top 1.prefab
-  artifactKey: Guid(845ad39e51a0a464a864825f760d85e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Tile Top 1.prefab using Guid(845ad39e51a0a464a864825f760d85e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973e9b6d4cfe9fbafa94b08308481387') in 0.033028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.311970 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Tree 1.prefab
-  artifactKey: Guid(d26323b6796b9124cbb1d69c674adc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 0/Tree 1.prefab using Guid(d26323b6796b9124cbb1d69c674adc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826152dd5b4d541d773bad4ef94adc81') in 0.017472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.568179 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Textures/IsometricTilesStandartTexture0.png
-  artifactKey: Guid(21b65aa70805145468980b0a66251867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Textures/IsometricTilesStandartTexture0.png using Guid(21b65aa70805145468980b0a66251867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c2f099c0e04bb20b8ed3519b124d7a') in 0.062714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Textures/IsometricTilesStandartTexture2.png
-  artifactKey: Guid(5081f0631428e5c43a2b23ef7c4ac78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Textures/IsometricTilesStandartTexture2.png using Guid(5081f0631428e5c43a2b23ef7c4ac78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd899bf3b46200c2644d2dc3ceaa597e0') in 0.031006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.388806 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Materials/IsometricTilesStandartMaterial1.mat
-  artifactKey: Guid(6e1d5c048d3ec914aab12aa6d6836cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Materials/IsometricTilesStandartMaterial1.mat using Guid(6e1d5c048d3ec914aab12aa6d6836cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5009847e72902109fcb3e7d0a6d556') in 0.041340 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006664 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\ms\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\ms\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.286 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1286ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1006ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (452ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.01 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3605 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4123.
-Memory consumption went from 135.1 MB to 133.8 MB.
-Total: 3.783300 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.164000 ms MarkObjects: 3.041700 ms  DeleteObjects: 0.280800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 480.998750 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Coin.prefab
-  artifactKey: Guid(a09eac4f92cd6af48ba81019c527810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Coin.prefab using Guid(a09eac4f92cd6af48ba81019c527810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794093d382295d0de3bbf53b831c27ad') in 0.112277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Tile Bot 1.prefab
-  artifactKey: Guid(48fd3a8d9df976848b807f3bdff3a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Tile Bot 1.prefab using Guid(48fd3a8d9df976848b807f3bdff3a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a509a8aa84e103d1ac58ce73c9e134f') in 0.020108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/LittleStone 2.prefab
-  artifactKey: Guid(947f5531ee1fa7344947a3a6ef091db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/LittleStone 2.prefab using Guid(947f5531ee1fa7344947a3a6ef091db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e3218e806f12c40ff6fcb2cad3e3d8') in 0.023409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Nameplate.prefab
-  artifactKey: Guid(5f226faa30648a445a5e57937c3c8b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Nameplate.prefab using Guid(5f226faa30648a445a5e57937c3c8b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf69def57e482cdc753c3799762eb89') in 0.023004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Fence.prefab
-  artifactKey: Guid(e77e44f6234bf34469e022632c99062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Fence.prefab using Guid(e77e44f6234bf34469e022632c99062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c292d95c73936084ce4d6f5fda319a8') in 0.018175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/LittleStone 3.prefab
-  artifactKey: Guid(7c63593e3dfeabc46bfda51e8c508cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/LittleStone 3.prefab using Guid(7c63593e3dfeabc46bfda51e8c508cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe7e44dc17d3e1f9ce88e43853c23e3') in 0.022360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.574797 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Coin.prefab
-  artifactKey: Guid(5c9f55a9d72675d45b39fe25133eb1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Coin.prefab using Guid(5c9f55a9d72675d45b39fe25133eb1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8c7577bcab6b101065ab456c550d13') in 0.011093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Tile Bot 1.prefab
-  artifactKey: Guid(67097796c689344478784e66dc3d0bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Tile Bot 1.prefab using Guid(67097796c689344478784e66dc3d0bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e232cbc350ee42ce7b911c6b30eb0e') in 0.016943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Nameplate.prefab
-  artifactKey: Guid(b777a0efa4eeee844a2061f6459bfb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Nameplate.prefab using Guid(b777a0efa4eeee844a2061f6459bfb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086968e3533db211a87d165f4f3f621e') in 0.015253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/LittleStone 2.prefab
-  artifactKey: Guid(9b4fd213ef631d64aa6585f7e9a8fcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/LittleStone 2.prefab using Guid(9b4fd213ef631d64aa6585f7e9a8fcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f948c4997000d8771a7daf52a508cb') in 0.016295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Ground Tile.prefab
-  artifactKey: Guid(ab317370f7f382a498f54cb3e8a9ba7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Ground Tile.prefab using Guid(ab317370f7f382a498f54cb3e8a9ba7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa380df5d754ed50f244a8ca5203ed82') in 0.015459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.736019 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Coin.prefab
-  artifactKey: Guid(24008ca901bc15e4e9aba3e3e15680dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Coin.prefab using Guid(24008ca901bc15e4e9aba3e3e15680dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3a87ea39fd3797f28979e128c4f2f8') in 0.011634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Stones Tile.prefab
-  artifactKey: Guid(abfe5c7e82c96314489525c5f8a9ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Stones Tile.prefab using Guid(abfe5c7e82c96314489525c5f8a9ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f697811b535a198a7fe0f3112f6ef68') in 0.015896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Nameplate.prefab
-  artifactKey: Guid(8dae05d3f47952b4ea654ded5ea3d5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Nameplate.prefab using Guid(8dae05d3f47952b4ea654ded5ea3d5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afa17f294d4c1a02cc56f7ef9abbf7c') in 0.016649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/LittleStone 2.prefab
-  artifactKey: Guid(77b882d86c71eb9469361801d3fa650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/LittleStone 2.prefab using Guid(77b882d86c71eb9469361801d3fa650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc56e33baed6fe8447abc0166adb806d') in 0.016026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Fence.prefab
-  artifactKey: Guid(760a160301010754c8406349710830ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Fence.prefab using Guid(760a160301010754c8406349710830ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c281ec66da40c3da1121b121e4a2ed4') in 0.018575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/LittleStone 1.prefab
-  artifactKey: Guid(585134f2c275a0447aea1808d2c99a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/LittleStone 1.prefab using Guid(585134f2c275a0447aea1808d2c99a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b2b336d600a8c69175f0ad8c1a8fc6') in 0.015411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.276354 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Tile Decor.prefab
-  artifactKey: Guid(cdb217eb0f1a6114c9accdc155fcea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Tile Decor.prefab using Guid(cdb217eb0f1a6114c9accdc155fcea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a3151715923f15b7d49570becd96c9') in 0.015712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Tile Top 2.prefab
-  artifactKey: Guid(c9136788b99468f4d896217e3b9c17a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Tile Top 2.prefab using Guid(c9136788b99468f4d896217e3b9c17a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824bb950d1a9bb57f0e3faa97ccf2cd1') in 0.016294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010108 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Tree 2.prefab
-  artifactKey: Guid(1d0d62047c0ad0d469d62127fbd1e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Tree 2.prefab using Guid(1d0d62047c0ad0d469d62127fbd1e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205e8127e1ef402b32b4bb3279ff097c') in 0.017114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.511349 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Tile Top 1.prefab
-  artifactKey: Guid(3df9158ae7c86a64ca9128178be2a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Tile Top 1.prefab using Guid(3df9158ae7c86a64ca9128178be2a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09334fca59db8cafc93a435affd967e') in 0.018204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Tree 2.prefab
-  artifactKey: Guid(509b5ccee640fb04a8d164cadd70546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Tree 2.prefab using Guid(509b5ccee640fb04a8d164cadd70546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fea2f48e28b363f9567082a332d2ada') in 0.028942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.382092 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Branch 1.prefab
-  artifactKey: Guid(a7c78a720aa6c62488112a7956962c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Branch 1.prefab using Guid(a7c78a720aa6c62488112a7956962c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2883f3a600daead29f40111557383c') in 0.017967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Bush 1.prefab
-  artifactKey: Guid(f511578de5244d24d8896f01bc37f583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 2/Bush 1.prefab using Guid(f511578de5244d24d8896f01bc37f583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afbfb55dc5864c47d7bab0b4f96c27a') in 0.018321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.431774 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Bush 1.prefab
-  artifactKey: Guid(2026d0eebc61d0d498d45028aa3f375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Bush 1.prefab using Guid(2026d0eebc61d0d498d45028aa3f375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606356d2cdd6f9edc7dea831ef12a438') in 0.020022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.995802 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Bush 1.prefab
-  artifactKey: Guid(7ded7fd4fa5b4eb478d3ea28a936589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 3/Bush 1.prefab using Guid(7ded7fd4fa5b4eb478d3ea28a936589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b7105e77abcd8b8fa958a0f363f6a0') in 0.026883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.141596 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Tile Decor.prefab
-  artifactKey: Guid(beddc5e4d12b6024f90228d377522ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Tile Decor.prefab using Guid(beddc5e4d12b6024f90228d377522ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468253948b1d6074cc97eb9c920b3b77') in 0.018369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Tree 1.prefab
-  artifactKey: Guid(a3d9b661523801e4a8a84e417439806e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Tree 1.prefab using Guid(a3d9b661523801e4a8a84e417439806e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0881fce9ba544106fb8a761a357f978') in 0.016019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Tile Top 1.prefab
-  artifactKey: Guid(3d3e1647da524af438765070d6d4fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1/Tile Top 1.prefab using Guid(3d3e1647da524af438765070d6d4fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f89e012e25b1e97c8d37432938c2ed4') in 0.014984 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 212.428962 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.011378 seconds 
