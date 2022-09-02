@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6126090162519242317}
   - component: {fileID: 4094937208881395290}
   - component: {fileID: -4938319018551977517}
+  - component: {fileID: 2272050562112799405}
   m_Layer: 0
   m_Name: Ground Tile
   m_TagString: Untagged
@@ -97,3 +98,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9408349, y: 0.17523843, z: 1.8138373}
   m_Center: {x: -0.0023288727, y: 1.0876191, z: 0.0011103749}
+--- !u!114 &2272050562112799405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846710458952921695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e529fc1f3a9c7824c915ccb5c3010d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
