@@ -30,8 +30,8 @@ public class Coin : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == ("Player")){
-            //GameController.instance.coinCount++;
+        if (other.tag.Equals("Player")){
+            GameController.instance.coinCount++;
             Destroy(gameObject);
         }
     }

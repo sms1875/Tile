@@ -358,6 +358,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BoostTile.cs"
 "Assets/Scripts/Bridge.cs"
+"Assets/Scripts/CheckObstacle.cs"
 "Assets/Scripts/Coin.cs"
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/Obstacle.cs"
