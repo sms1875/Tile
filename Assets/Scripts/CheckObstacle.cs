@@ -12,10 +12,7 @@ public class CheckObstacle : MonoBehaviour
     public Vector3 ArrowOrigin;
     public Vector3 ArrowTarget;
     public LineRenderer cachedLineRenderer;
-    public bool isMove;
-    Camera mainCamera;
     public static CheckObstacle instance;
-    Vector3 mousePos;
 
     private void Awake()
     {
@@ -26,34 +23,6 @@ public class CheckObstacle : MonoBehaviour
     {
         UpdateArrow();
         cachedLineRenderer.enabled = false;
-        isMove = true;
-        mainCamera=GameObject.Find("Main Camera").GetComponent<Camera>();
-    }
-    private void Update()
-    {
-
-        if (isMove)
-        {
-            if (Input.GetMouseButtonUp(0))
-            {
-                Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-
-                if (Physics.Raycast(ray, out RaycastHit raycastHit))
-                {
-                    if (raycastHit.transform.name.Equals("Fox"))
-                    {
-                        mousePos = raycastHit.point;
-
-                        if (Vector3.Distance(transform.position, mousePos) < 2f)
-                        {
-                            GameController.instance.Move(transform.name);
-                        }
-
-                    }
-
-                }
-            }
-        }
     }
 
     [ContextMenu("UpdateArrow")]

@@ -1145,6 +1145,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2411d0c31500e3459b6936e66d5e7a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkObstacle:
+  - {fileID: 5576754229129254933}
+  - {fileID: 4773385731835689704}
+  - {fileID: 2002608029595864268}
+  - {fileID: 4581384108670666215}
 --- !u!1 &4246927435662846628
 GameObject:
   m_ObjectHideFlags: 0
