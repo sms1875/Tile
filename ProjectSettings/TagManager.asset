@@ -9,6 +9,7 @@ TagManager:
   - Bridge
   - Coin
   - Tile
+  - Empty
   layers:
   - Default
   - TransparentFX

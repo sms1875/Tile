@@ -58,12 +58,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bridge.cs" />
     <Compile Include="Assets\Scripts\Coin.cs" />
-    <Compile Include="Assets\Scripts\CheckObstacle.cs" />
     <Compile Include="Assets\Scripts\BoostTile.cs" />
     <Compile Include="Assets\Scripts\Tile.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\Scripts\Obstacle.cs" />
+    <Compile Include="Assets\Scripts\MapManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Import\SimpleSky\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

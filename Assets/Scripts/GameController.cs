@@ -5,8 +5,9 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
-    public int coinCount=0;
 
+    public int coinCnt = 0;
+    public int moveCnt = 0;
 
     private void Awake()
     {

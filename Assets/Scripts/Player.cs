@@ -16,7 +16,6 @@ public class Player : MonoBehaviour
     #endregion
 
     Camera mainCamera;
-    public CheckObstacle[] checkObstacle;
 
     private void Awake()
     {
@@ -25,40 +24,11 @@ public class Player : MonoBehaviour
     private void Start()
     {
         rig = GetComponent<Rigidbody>();
-        mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
     }
 
 
     public void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            falseLineRender();
-            transform.Translate(-speed * Time.deltaTime, 0, 0);
-        }
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            falseLineRender();
-            transform.Translate(speed * Time.deltaTime, 0, 0);
-        }
-        else if (Input.GetKey(KeyCode.UpArrow))
-        {
-            falseLineRender();
-            transform.Translate(0, 0, speed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.DownArrow))
-        {
-            falseLineRender();
-            transform.Translate(0, 0, -speed * Time.deltaTime);
-        }
-        /*
-        else
-            for (int i = 0; i < checkObstacle.Length; i++)
-            {
-                checkObstacle[i].cachedLineRenderer.enabled = true;
-            }
-
-        */
         if (isMove)
         {
             if (Input.GetMouseButton(0))
@@ -74,8 +44,6 @@ public class Player : MonoBehaviour
                     if (Vector3.Distance(rig.position, targetPos) < 2)
                     {
 
-                        falseLineRender();
-
 
                         Debug.Log(targetPos);
                         Debug.Log(Vector3.Distance(rig.position, targetPos));
@@ -89,17 +57,6 @@ public class Player : MonoBehaviour
     }
     public float speed = 5f;
 
-
-    public void falseLineRender()
-    {
-        //화살표 비활성화
-        for (int i = 0; i < checkObstacle.Length; i++)
-        {
-            checkObstacle[i].cachedLineRenderer.enabled = false;
-        }
-    }
-
-
     public void Move(string direction)
     {
         Debug.Log("test" + direction);
@@ -112,7 +69,6 @@ public class Player : MonoBehaviour
         {
             case "foward":
                 dir.z = Horizontal;
-               
                 break;
             case "right":
                 dir.x = Vertical;
@@ -127,30 +83,5 @@ public class Player : MonoBehaviour
 
 
     }
-    
-
 
 }
-/*
-
-if (Input.GetMouseButtonUp(0))
-{
-    Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-
-    if (Physics.Raycast(ray, out RaycastHit raycastHit))
-    {
-
-        if (raycastHit.transform.name.Equals("Fox"))
-        {
-            mousePos = raycastHit.point;
-
-            if (Vector3.Distance(transform.position, mousePos) < 2f)
-            {
-                Move(transform.name);
-
-            }
-
-        }
-
-    }
-}*/
