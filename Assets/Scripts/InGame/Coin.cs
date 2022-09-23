@@ -32,7 +32,7 @@ public class Coin : MonoBehaviour
     {
         if (other.tag.Equals("Player")){
             GameController.instance.coinCnt++;
-            Destroy(gameObject);
+            Destroy(gameObject); UnityEngine.SceneManagement.SceneManager.LoadScene(1);
         }
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class StageBtn : MonoBehaviour
+public class ChapterBtn : MonoBehaviour
 {
     public int sceneNum;
     public void moveScene()
