@@ -6,6 +6,7 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager instance;
     public bool isStart = false;
+    public int chapNum;
 
     private void Awake()
     { 
@@ -42,4 +43,20 @@ public class DataManager : MonoBehaviour
         PlayerPrefs.SetInt("chapter" + i,result);
     }
 
+    public void setChapterMission()
+    {
+        switch (chapNum)
+        {
+            case 1:
+                GameController.instance.coinCnt = 2;
+                GameController.instance.moveCnt = 20;
+                break;
+            case 2:
+
+                break;
+            case 3:
+
+                break;
+        }
+    }
 }

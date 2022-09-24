@@ -15,7 +15,7 @@ C:/Users/user/Documents/GitHub/Tile
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-56515
+55206
 Successfully changed project path to: C:/Users/user/Documents/GitHub/Tile
 C:/Users/user/Documents/GitHub/Tile
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/user/Documents/GitHub/Tile
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 135.15 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 123.78 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,45 +63,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005884 seconds.
+Registered in 0.003796 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 126.86 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 134.78 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.842 seconds
+- Completed reload, in  0.799 seconds
 Domain Reload Profiling:
-	ReloadAssembly (843ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (799ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (623ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (133ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (391ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
+				RefreshPlugins (135ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005929 seconds.
+Registered in 0.006679 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -109,43 +109,43 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.72 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.284 seconds
+- Completed reload, in  1.343 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1285ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1344ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1001ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1065ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
+			SetupTypeCache (342ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (462ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (510ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (1.3 MB). Loaded Objects now: 4145.
+Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.3 MB). Loaded Objects now: 4147.
 Memory consumption went from 137.9 MB to 136.6 MB.
-Total: 3.619000 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.149000 ms MarkObjects: 2.909600 ms  DeleteObjects: 0.261400 ms)
+Total: 3.888800 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.154700 ms MarkObjects: 3.176800 ms  DeleteObjects: 0.257100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,70 +159,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1815465.342668 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/Button/quit.png
-  artifactKey: Guid(7d2ef8125c0a57149a33424eb12afd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/Button/quit.png using Guid(7d2ef8125c0a57149a33424eb12afd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e32fbf3569dfde3f2d88143fbcd516') in 0.318104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.731984 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/coin.png
-  artifactKey: Guid(bee702842f8ed864f935e5f60f850d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/coin.png using Guid(bee702842f8ed864f935e5f60f850d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bebc662fa62494eb8db76b77fdf3651') in 0.057812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/jelly bar.png
-  artifactKey: Guid(f3d6c9b3e6da0764b9e95b4e6a6ddf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/jelly bar.png using Guid(f3d6c9b3e6da0764b9e95b4e6a6ddf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c159a91944c4564410200f35641ce80b') in 0.054558 seconds 
+  Time since last request: 1821718.069358 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/s_button/information.png
+  artifactKey: Guid(4d5557cac0b4ed440b34cc2d04dbb9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/s_button/information.png using Guid(4d5557cac0b4ed440b34cc2d04dbb9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f86ff0f80d03624813446f093d8be4') in 0.231005 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/item box_jelly.png
-  artifactKey: Guid(13970f1d17051db43b69130e5a951eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/item box_jelly.png using Guid(13970f1d17051db43b69130e5a951eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c4d1e3488517b94f37108e43f3efcc') in 0.063338 seconds 
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/s_button/music1.png
+  artifactKey: Guid(ae092fdfe65b1eb45807c7f6c222e239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/s_button/music1.png using Guid(ae092fdfe65b1eb45807c7f6c222e239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfe05a713259c7a4cf9c507e58cf101') in 0.083804 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/goods.png
-  artifactKey: Guid(6e73f75ce13a124469c346d4f2a0a254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/goods.png using Guid(6e73f75ce13a124469c346d4f2a0a254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c4b1af791c9d6a3f8841a334aada10') in 0.139642 seconds 
+  Time since last request: 0.759152 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/button/quit.png
+  artifactKey: Guid(f20e24b72461e8c46892075ce7066f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/button/quit.png using Guid(f20e24b72461e8c46892075ce7066f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2feb984b0bff8262482605d9c772533') in 0.139400 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.264872 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/button/quit.png
-  artifactKey: Guid(5e805ba11aed3a347839dc29edc49128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/button/quit.png using Guid(5e805ba11aed3a347839dc29edc49128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16034eba3d023004aa0f8b9ef50ff55') in 0.135553 seconds 
+  Time since last request: 0.445176 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/3.png
+  artifactKey: Guid(7a9106d6738c68b4e9e9e1e6462befec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/3.png using Guid(7a9106d6738c68b4e9e9e1e6462befec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf14138b4108370baf911ba9a3dfacfc') in 0.032953 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/button/setting.png
-  artifactKey: Guid(74749f76760216b45b392d9703723d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/button/setting.png using Guid(74749f76760216b45b392d9703723d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a45c1f170f584182ad0fa0e2b37c5f') in 0.170003 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/5.png
+  artifactKey: Guid(992df9a06d13da24588ad949b50ad03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/5.png using Guid(992df9a06d13da24588ad949b50ad03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53232d280aa53da836304a94bad97ea') in 0.022153 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.645010 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/s_button/home.png
-  artifactKey: Guid(95fb400dca4b159408c277fd10c14a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/s_button/home.png using Guid(95fb400dca4b159408c277fd10c14a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89408cba361b7b3103ae579ad696582') in 0.128308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/s_button/pause.png
-  artifactKey: Guid(3d8cfacb4b21aac4bbd489da5da0824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/s_button/pause.png using Guid(3d8cfacb4b21aac4bbd489da5da0824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a688019c892ef002f476bd5def65f173') in 0.110547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/s_button/set.png
-  artifactKey: Guid(6d1377844c7efef49b530ee8ce66b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/s_button/set.png using Guid(6d1377844c7efef49b530ee8ce66b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8689421b2afddd19112526bef1068b') in 0.132866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/s_button/shop.png
-  artifactKey: Guid(96a79ebe2e3946a41b6e2dbc57ceb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_green/s_button/shop.png using Guid(96a79ebe2e3946a41b6e2dbc57ceb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1d473357adac5bc6d45bb4e1e527d6') in 0.114910 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/4.png
+  artifactKey: Guid(7be32faeabe792244bde0d37c56f8abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/4.png using Guid(7be32faeabe792244bde0d37c56f8abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa650e52abced99e6015261f54d8c5f') in 0.023651 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

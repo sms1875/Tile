@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ko' Physical Memory: 32637 MB
+OS: 'Windows 11  (10.0.22000) 64bit Education' Language: 'ko' Physical Memory: 16310 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker6
 -projectPath
-C:/Users/user/Documents/GitHub/Tile
+D:/GitHub/Tile
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-55206
-Successfully changed project path to: C:/Users/user/Documents/GitHub/Tile
-C:/Users/user/Documents/GitHub/Tile
+56509
+Successfully changed project path to: D:/GitHub/Tile
+D:/GitHub/Tile
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,111 +47,112 @@ C:/Users/user/Documents/GitHub/Tile
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 124.80 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 133.17 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/Tile/Assets
+[Subsystems] Discovering subsystems at path D:/GitHub/Tile/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
     Vendor:   NVIDIA
-    VRAM:     12138 MB
-    Driver:   30.0.14.9676
+    VRAM:     8050 MB
+    Driver:   31.0.15.1694
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003837 seconds.
+Registered in 0.003141 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 122.04 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 119.93 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
+- Completed reload, in  0.852 seconds
 Domain Reload Profiling:
-	ReloadAssembly (783ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (852ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (576ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (604ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (343ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (374ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
+				RefreshPlugins (120ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005653 seconds.
+Registered in 0.005302 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.356 seconds
+- Completed reload, in  1.685 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1357ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1084ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1317ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
+			SetupTypeCache (376ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (512ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (581ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (1.3 MB). Loaded Objects now: 4147.
-Memory consumption went from 137.9 MB to 136.6 MB.
-Total: 4.218100 ms (FindLiveObjects: 0.296800 ms CreateObjectMapping: 0.179500 ms MarkObjects: 3.473400 ms  DeleteObjects: 0.267100 ms)
+Unloading 3705 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.3 MB). Loaded Objects now: 4163.
+Memory consumption went from 149.8 MB to 148.5 MB.
+Total: 5.517600 ms (FindLiveObjects: 1.536100 ms CreateObjectMapping: 0.138100 ms MarkObjects: 2.952200 ms  DeleteObjects: 0.890300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -159,34 +160,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1821718.069083 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/s_button/home.png
-  artifactKey: Guid(db29b69e2ef9fe54997f788ff04f171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/s_button/home.png using Guid(db29b69e2ef9fe54997f788ff04f171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf93cec0722dfb83b6d25d7ba69344c0') in 0.233938 seconds 
+  Time since last request: 120991.302661 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/bar.png
+  artifactKey: Guid(4f8ebc950bdaf204497fcc3817737877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/bar.png using Guid(4f8ebc950bdaf204497fcc3817737877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498db9581dba7bac731ca9d8be56ce8e') in 0.435230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001043 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/speed.png
+  artifactKey: Guid(a94c982ad837a184a9a6948d7b429b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/speed.png using Guid(a94c982ad837a184a9a6948d7b429b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390b09b75d66e1e72091b9aa2c500096') in 0.089227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/star box.png
+  artifactKey: Guid(d87e0c7b37f7dcc48bfd54be3b71c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/star box.png using Guid(d87e0c7b37f7dcc48bfd54be3b71c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8fc981ddc29431b07ecbdd58e5dc28') in 0.125962 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/s_button/play.png
-  artifactKey: Guid(6847525e8631f414fad73f2bb8408389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/s_button/play.png using Guid(6847525e8631f414fad73f2bb8408389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df7df95d601e8149123904644e6f1ef') in 0.086045 seconds 
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/stage.png
+  artifactKey: Guid(03c22caa61a91134e8b955127a097089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/stage.png using Guid(03c22caa61a91134e8b955127a097089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91b0caaf02dabfd2c0633f80cbd9c3f') in 0.076517 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.753008 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/button/ok.png
-  artifactKey: Guid(295c7111297118d418ae4e0e831dc078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/button/ok.png using Guid(295c7111297118d418ae4e0e831dc078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe2a39f163936606301767afac8719f') in 0.141803 seconds 
+  Time since last request: 0.000496 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/jelly.png
+  artifactKey: Guid(738e2ba3a3c385d4e80dfaa00d6b38fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_purple/jelly.png using Guid(738e2ba3a3c385d4e80dfaa00d6b38fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304e8d5cc93fdc9f27529e74b9b81afa') in 0.071592 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.442838 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/2.png
-  artifactKey: Guid(b541cf181ab7c7048b935f5d186531dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/2.png using Guid(b541cf181ab7c7048b935f5d186531dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43517b6056f24e00690a6a54e9398121') in 0.042631 seconds 
+  Time since last request: 14.709525 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/candy bar.png
+  artifactKey: Guid(90c4b4d51296e1f40b1f303cff90392d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/candy bar.png using Guid(90c4b4d51296e1f40b1f303cff90392d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bba9d5eab9d82cc2312dc8c0733a81') in 0.027304 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/7.png
-  artifactKey: Guid(c06628bb5a3857f47a0cc57c0900bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_blue/text/7.png using Guid(c06628bb5a3857f47a0cc57c0900bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085ba0157a8435848cce4e6064ab96df') in 0.023053 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/jelly.png
+  artifactKey: Guid(17d7fe1d152e44c429b80bb7ecbad707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/jelly.png using Guid(17d7fe1d152e44c429b80bb7ecbad707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c34c4dcbbb766f0f8be6dc8ea14c6f') in 0.285946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/item box_jelly.png
+  artifactKey: Guid(13970f1d17051db43b69130e5a951eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/item box_jelly.png using Guid(13970f1d17051db43b69130e5a951eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca78c128fe9da0a1ae807ad20a845ae5') in 0.126473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/goods.png
+  artifactKey: Guid(6e73f75ce13a124469c346d4f2a0a254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_orange/goods.png using Guid(6e73f75ce13a124469c346d4f2a0a254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4259b6066741dcebfa75fdd0699b186') in 0.340489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.982898 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_red/bar.png
+  artifactKey: Guid(b0add21f966f0cd498a4880b53be17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_red/bar.png using Guid(b0add21f966f0cd498a4880b53be17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692215e68fc8f04482ce91cc84ec354c') in 0.158570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_red/goods.png
+  artifactKey: Guid(bdf47ca946cc642428b02b383b44e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_red/goods.png using Guid(bdf47ca946cc642428b02b383b44e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3af5428be24bcc7e4ed63fd7e26993') in 0.467303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001960 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_red/star.png
+  artifactKey: Guid(e0b7051440177ab40a45e8abd1e858c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_red/star.png using Guid(e0b7051440177ab40a45e8abd1e858c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bde15c85d00e5ba9a7b8a2f1f8fe3e9') in 0.092595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_red/candy bar.png
+  artifactKey: Guid(1aeb4b16053a15040a02dbec0558d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/UI/Puzzle stage & settings GUI Pack/Image_red/candy bar.png using Guid(1aeb4b16053a15040a02dbec0558d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40abeb1fd3631c95924a4d77a5cc295') in 0.031486 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044960 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Tile\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1343ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (496ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.68 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3653 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 4195.
+Memory consumption went from 149.5 MB to 148.2 MB.
+Total: 4.703400 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.192200 ms MarkObjects: 3.103800 ms  DeleteObjects: 1.114600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -31,8 +31,8 @@ public class Coin : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag.Equals("Player")){
-            GameController.instance.coinCnt++;
-            Destroy(gameObject); UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+            GameController.instance.currentCoinCnt++;
+            Destroy(gameObject); 
         }
     }
 }

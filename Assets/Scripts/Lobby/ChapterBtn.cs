@@ -10,5 +10,6 @@ public class ChapterBtn : MonoBehaviour
     public void moveScene()
     {
         SceneManager.LoadScene(sceneNum);
+        DataManager.instance.chapNum = sceneNum - 1;
     }
 }

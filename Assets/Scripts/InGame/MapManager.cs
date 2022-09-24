@@ -117,7 +117,6 @@ public class MapManager : MonoBehaviour
                     break;
                 case TileType.Bridge:
                     StartCoroutine(MovingPlayer(x, y));
-                    //다리 리지드바디실행
                     break;
                 case TileType.Obstacle:
                     Debug.Log("벽이 있는 타일은 갈 수 없습니다.");
@@ -136,6 +135,7 @@ public class MapManager : MonoBehaviour
     IEnumerator MovingPlayer(int x, int y)
     {
         isMove = true;
+        GameController.instance.currentMoveCnt++;
 
         _tile[playerNowPoint_X, playerNowPoint_Y] = TileType.Tile;
 
@@ -148,6 +148,7 @@ public class MapManager : MonoBehaviour
         Player.position += new Vector3((x - playerNowPoint_X) * 2.5f, 0, (y - playerNowPoint_Y) * 2.3f);
         playerNowPoint_X = x;
         playerNowPoint_Y = y;
+
         _tile[playerNowPoint_X, playerNowPoint_Y] = TileType.Player;
 
         //플레이어 이동에 걸리는 시간
